@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Homepage</title>
+</head>
+<body>
+  <h1>Blog Homepage</h1>
+  <% blogs.forEach(blog => { %>
+    <div>
+      <h2><%= blog.title %></h2>
+      <p><%= blog.content %></p>
+    </div>
+  <% }); %>
+</body>
+</html>
